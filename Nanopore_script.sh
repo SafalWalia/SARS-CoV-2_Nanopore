@@ -1,5 +1,9 @@
 # SARS-CoV-2 Nanopore sequencing data analysis
 
+# Activate conda environment for required packages:
+conda activate nanopore_covid
+wait
+
 # Basecalling and Barcoding:
 mkdir -p basecall_files/
 guppy_basecaller -i fast5/ -s basecall_files/ -c dna_r9.4.1_450bps_hac.cfg -x "cuda:0 cuda:1"
