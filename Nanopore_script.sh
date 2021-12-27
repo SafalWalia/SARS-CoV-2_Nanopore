@@ -1,4 +1,4 @@
-# SARS-CoV-2 Nanopore sequencing data analysis
+# SARS-CoV-2 Nanopore sequencing data analysis:
 
 # Activate conda environment for required packages:
 conda activate nanopore_covid
